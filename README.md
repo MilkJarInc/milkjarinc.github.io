@@ -1,2 +1,3 @@
 # MilkJar Inc.
 
+![](jar.png)
