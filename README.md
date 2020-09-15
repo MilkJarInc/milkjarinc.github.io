@@ -1,3 +1,3 @@
 # MilkJar Inc.
 
-![](jar.png)
+![mailto:info@milkjar.co.uk](jar.png)
