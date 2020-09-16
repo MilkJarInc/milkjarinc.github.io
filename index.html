@@ -9,15 +9,43 @@
   <meta name="author" content="MilkJar">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet"> 
   <style>
-    body {
-font-family: 'Source Sans Pro', sans-serif;
-    }
+    html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+}
+.flex-item {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
   </style>
 </head>
 
 <body>
-<h1>MilkJar Inc.</h1>
+  
+  <div class="flex-container">
+    <div class="row"> 
+        <div class="flex-item"><h1>MilkJar Inc.</h1></div>
+        <div class="flex-item">  <a href="mailto:info@milkjar.co.uk?subject=About your website"><img style="width: 50%;" src="jar.png" /></a></div>
 
-  <a href="mailto:info@milkjar.co.uk?subject=About your website"><img style="width: 50%;" src="jar.png" /></a>
+    </div>
+</div>
+
+
+
 </body>
 </html>
